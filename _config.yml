@@ -30,7 +30,7 @@ mathjax:
   combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
   tags:  # "none", "ams" (default), "all"
 google_fonts:
-  - name: "Source Sans Pro"
+  - name: "Nanum Gothic"
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
