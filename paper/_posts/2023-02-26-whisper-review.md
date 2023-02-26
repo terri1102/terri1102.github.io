@@ -1,13 +1,11 @@
 ---
 title: "Robust Speech Recognition via Large-Scale Weak Supervision 리뷰"
 published: true
-future: true
 date: 2023-02-26T08:00:50-04:00
 tags:
     - STT
     - OpenAI
 ---
-
 
 # Robust Speech Recognition via Large-Scale Weak Supervision
 (WSPSR: Web-scale Supervised Pretraining for Speech Recognition)
