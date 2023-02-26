@@ -2,7 +2,7 @@
 title: "Robust Speech Recognition via Large-Scale Weak Supervision 리뷰"
 published: true
 future: true
-date: 2023-02-26T08:30:50-04:00
+date: 2023-02-26T08:00:50-04:00
 tags:
     - STT
     - OpenAI
