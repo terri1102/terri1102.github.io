@@ -15,7 +15,7 @@ tags:
 <br>
 
 # 공식 코드
-* https://github.com/openai/whisper
+* [https://github.com/openai/whisper](https://github.com/openai/whisper)
 * 아주 훌륭한 성능의 음성인식/음성번역(영어) 모델
 * 음성인식시 timestamp 제공
 
@@ -296,13 +296,17 @@ Whisper의 이상 행동
 
 
 # 한국어 성능
-
 - Fleurs 데이터셋 언어별 성능
     
     ![fleurs.png](https://raw.githubusercontent.com/terri1102/blog_images/main/papers/2023-02-26-whisper/fleurs_dataset.png)
-    
+
+# 읽은 후기
+다양한 실험 결과와 전처리 과정에 대한 상세하게 설명하고 있는 논문이어서 음성 인식 모델을 만들 때 많은 도움을 받았다. 시간 및 인력 자원의 부족으로 많은 튜닝을 해보기 어려운데 위 논문을 참고해서 공부하고 때때로 필요한 부분을 적용하고 있다. 또한 좋은 성능의 모델 가중치와 코드가 공유되어 있어 사용이 쉽고 한국어 예시가 많이 있어서 내적 친밀감을 느끼기 좋다.
+
 
 # Reference
+* [Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356)
+* [https://github.com/openai/whisper](https://github.com/openai/whisper)
 * [https://machinelearning.apple.com/research/inverse-text-normal](https://machinelearning.apple.com/research/inverse-text-normal)
 * [https://velog.io/@p2yeong/오디오-처리Audio-Processing](https://velog.io/@p2yeong/%EC%98%A4%EB%94%94%EC%98%A4-%EC%B2%98%EB%A6%ACAudio-Processing)
 * [https://huggingface.co/datasets/google/fleurs](https://huggingface.co/datasets/google/fleurs)
