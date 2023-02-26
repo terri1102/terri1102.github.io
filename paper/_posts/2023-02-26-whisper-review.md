@@ -126,11 +126,11 @@ Wav2Vec 2.0 의 등장 이후 음성인식 분야에서는 Unsupervised pretrain
 ![multitask_training.png](https://raw.githubusercontent.com/terri1102/blog_images/main/papers/2023-02-26-whisper/multitask_training.png)
 
 **Conditioning information:** 디코더에 들어갈 input token을 컨디셔닝
-1. "|Start of Transcript|" 토큰으로 추론  시작 나타냄
+1. \|Start of Transcript\| 토큰으로 추론  시작 나타냄
 2. 언어 예측 or No Speech
 3. 태스크 선택: transcribe or translate
 4. timestamps or No timestamps: 현재 오디오 세그먼트에 상대적인 time을 예측함
-5. "|end of transcript|" 토큰으로 추론 끝 알림
+5. \|end of transcript\| 토큰으로 추론 끝 알림
 
 **Multitask:** VAD, Language identification, Transcription, Translation, timestamp prediction
 
@@ -147,7 +147,7 @@ Wav2Vec 2.0 의 등장 이후 음성인식 분야에서는 Unsupervised pretrain
     - linear learning rate decay to zero
     - warm up over the first 2048 updates
     - batch size of 256 segments
-    - $2^20$ updates (2-3 passes over the dataset)
+    - 2^20 updates (2-3 passes over the dataset)
     - data augmentation 이나 regularization 안 함
 
 Whisper의 이상 행동
