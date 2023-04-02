@@ -1,7 +1,7 @@
 ---
 title: "AWS VPC 구성하기(1) - Private Subnet"
 published: true
-date: 2023-04-02T17:20:50-04:00
+date: 2023-04-02T00:20:50-04:00
 tags:
     - AWS
     - VPC
@@ -33,6 +33,8 @@ AWS의 VPC 콘솔에 들어오면 기본으로 생성된 VPC가 있습니다. �
 ![subnet_created](https://raw.githubusercontent.com/terri1102/blog_images/main/cloud/subnet_created.png)
 일단 default VPC에 새로운 서브넷을 생성해줍니다. 저는 가용 영역을 이름에 넣고 싶어서 private-subnet-2a로 이름을 붙였습니다.
 
+![create_subnet2](https://raw.githubusercontent.com/terri1102/blog_images/main/cloud/create_subnet2.png)
+
 </br>
 
 ### 2. 라우팅 테이블 만들기
@@ -51,6 +53,9 @@ VPC 콘솔에서 왼쪽 네비게이션 바에서 라우팅 테이블을 선택�
 이제 private-rtb 라우팅 테이블을 private-subnet-2a에 연결하겠습니다. 
 현재 private-rtb의 라우팅 테이블은 VPC 내부 통신만 가능한 상태입니다. 나중에 VPC Endpoint를 추가해서 외부 AWS 리소스와 통신할 수 있게 할 것입니다. 
 
+![connect_to_subnet](https://raw.githubusercontent.com/terri1102/blog_images/main/cloud/connect_to_subnet.png)
+
+이제 만들어 둔 private-subnet에 라우팅 테이블을 붙입니다.
 
 
 
