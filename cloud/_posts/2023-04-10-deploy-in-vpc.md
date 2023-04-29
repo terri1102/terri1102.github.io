@@ -1,8 +1,8 @@
 ---
 title: "AWS VPC 구성하기(2) - VPC에 인스턴스 배포하기"
-published: true
+published: false
 future: true
-date: 2023-04-10T17:20:50-04:00
+date: 2023-05-10T17:20:50-04:00
 tags:
     - AWS
     - VPC
