@@ -2,7 +2,7 @@
 title: "글또 데이터 반상회 참여 후기"
 published: true
 future: true
-date: 2023-07-01T08:20:50-04:00
+date: 2023-07-02T08:20:50-04:00
 tags:
     - 후기
 ---
